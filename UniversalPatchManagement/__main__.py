@@ -9,24 +9,7 @@ def main(args=sys.argv[1:]):
     """
     Main function.
     """
-    print("System Details:")
-    # print(platform.python_version())
-    # print(os.getcwd())
-    # print(os.path.dirname(os.path.realpath(__file__)))
-    # print(platform.platform())
-    # print(platform.system())
-    # print(platform.release())
-    # print(platform.machine())
-    # print(platform.architecture())
-    # print(platform.uname())
-    # print(platform.version())
-    # print(platform.python_build())
-    # print(platform.python_compiler())
-    # print(platform.python_branch())
-    # print(platform.python_implementation())
-    # print(platform.python_revision())
-    # print(platform.python_version_tuple())
-
+    print("Hello World!")
 
 
 if __name__ == '__main__':
