@@ -4,7 +4,7 @@ import os
 from sysnet import get_network_interface_info, get_network_interfaces, get_gateway_info, getAllNetWorkInfo
 from systemidentification import get_system_details
 from syscmd import run_cmd
- 
+
 def main(args=sys.argv[1:]):
     """
     Main function.
