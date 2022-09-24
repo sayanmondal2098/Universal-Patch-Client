@@ -13,8 +13,11 @@ def main(args=sys.argv[1:]):
 
 
 if __name__ == '__main__':
-    main()
+    #main()
     print(getAllNetWorkInfo())
+    print("*"*50)  
+    print(get_gateway_info())
     print("*"*50)   
     print(run_cmd('ifconfig'))
+    print(run_cmd('ipconfig'))
     
