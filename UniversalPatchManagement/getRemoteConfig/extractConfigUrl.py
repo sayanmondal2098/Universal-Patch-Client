@@ -35,3 +35,6 @@ for line in line:
     config_dict[line.split('=')[0]] = line.split('=')[1]
 
 print(config_dict)
+
+def getConfigDictfromSource():
+    config_dict
