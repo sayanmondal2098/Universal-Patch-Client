@@ -1,5 +1,5 @@
 import os
 import sys
-from downloadFile import Download_file
+import syscmd
 
-Download_file("http://212.183.159.230/200MB.zip")
+syscmd.run_cmd('ls -l')

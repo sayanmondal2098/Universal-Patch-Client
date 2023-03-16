@@ -1,10 +1,9 @@
-import os
 import sys 
-sys.path.append('../')
-
 
 import getRemoteConfig.Test as test
 
+
+sys.path.append('../')
 
 sysdetails = test.getAllNetWorkInfo()
 
